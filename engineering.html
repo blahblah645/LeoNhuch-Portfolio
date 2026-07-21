@@ -30,9 +30,32 @@
         </nav>
     </header>
 
-
     <section id="songwritings" class="gallery">
         <h2 class="section-title">Engineering</h2>
+
+        <div class="songwriting">
+            <iframe src="TBP26.html" width="50%" height="600px" class="media-panel"></iframe>
+            <div class="info">
+                <h1>TBP26, Star-Wars Inspiried Self Balancing Droid</h1>
+                <h2>April 2026 - Present</h2>
+<p>
+    TBP26 is a dynamic robot that transforms a cinematic droid concept into a functional mechatronic system. I designed and fabricated its structure, integrated CAN-controlled RobStride 02 actuators, and developed an ESP32-based feedback controller. The system’s ongoing development has already demonstrated successful upright self-balancing, establishing the foundation for controlled character-driven motion.
+
+
+    <br><br>
+    <strong>Embedded Software:</strong> I programmed an ESP32 in embedded C++ to process IMU orientation feedback and generate real-time corrective motor commands. The PD-based controller combines tilt and angular-rate feedback, motor damping, acceleration limiting, and adjustable torque assist, while CAN communication provides command and telemetry links to the RobStride actuators.
+
+    <br><br>
+    <strong>Mechatronic Design:</strong> The system integrates a BNO085 IMU over SPI, RobStride 02 actuators over 1 Mbps CAN, and a split-voltage power architecture: a 20 V drill battery powers the drivetrain while a buck converter supplies 3.3 V to the control electronics. I designed the assembly OnShape and fabricated the modular structure through FDM 3D printing on my Prusa MK4S.
+
+
+    <br><br>
+    <strong>Crative Open-Source Development:</strong> TBP26 is designed to become more than a functioning self-balancing robot. I created TBP26 to feel like an authentic friend that creates joy, curiosity, and connection. I am combining mechanical, electrical, and software engineering with character design to bring that idea of a companion to life. I am also documenting the complete design, build, and iterative process on social media platforms like Instagram and TikTok and preparing the project for open-source release so others can recreate TBP26 and customize it to their own creative ideas.
+</p>
+            </div>
+        </div>
+    
+
 
         <div class="songwriting">
             <iframe src="wind-tunnel-media.html" width="50%" height="600px" class="media-panel"></iframe>
